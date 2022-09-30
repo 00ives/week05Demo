@@ -12,6 +12,10 @@
         <servlet-name>AverageServlet</servlet-name>
         <servlet-class>servlets.AverageServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AverageMyCopyServlet</servlet-name>
+        <servlet-class>servlets.AverageMyCopyServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/test</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>AverageServlet</servlet-name>
         <url-pattern>/average</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AverageMyCopyServlet</servlet-name>
+        <url-pattern>/averagemycopy</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
