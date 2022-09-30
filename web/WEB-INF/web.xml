@@ -38,6 +38,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>average</welcome-file>
+        <welcome-file>averagemycopy</welcome-file>
     </welcome-file-list>
 </web-app>

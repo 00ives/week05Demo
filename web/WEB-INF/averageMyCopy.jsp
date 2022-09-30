@@ -19,6 +19,6 @@
             
         </form>
         
-        Average: ${averagemycopy}
+        Average: ${average}
     </body>
 </html>
