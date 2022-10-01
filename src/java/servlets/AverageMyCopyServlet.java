@@ -20,6 +20,12 @@ public class AverageMyCopyServlet extends HttpServlet {
             throws ServletException, IOException {
 
         HttpSession session = request.getSession();
+        
+        String action = request.getParameter("action");
+        if (action != null && action.equals("reset")){
+            session.invalidate();
+            session = request.getSession();
+        }
 
         ArrayList<Integer> numbers = (ArrayList<Integer>) session.getAttribute("numbers");
         if (numbers == null) {
